@@ -1,8 +1,0 @@
-from Car import Car
-
-class Serviceable(Car):
-    def needs_service(self):
-        if Car.needs_service():
-            True
-        else: 
-            False
